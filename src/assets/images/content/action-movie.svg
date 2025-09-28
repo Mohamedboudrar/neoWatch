@@ -1,0 +1,7 @@
+<svg width="160" height="90" viewBox="0 0 160 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="90" rx="6" fill="#DC2626"/>
+  <rect x="10" y="10" width="140" height="70" rx="4" fill="#1F2937"/>
+  <circle cx="80" cy="45" r="15" fill="#DC2626"/>
+  <polygon points="75,40 75,50 85,45" fill="white"/>
+  <text x="80" y="75" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">ACTION</text>
+</svg>

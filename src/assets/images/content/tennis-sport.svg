@@ -1,0 +1,7 @@
+<svg width="140" height="80" viewBox="0 0 140 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="80" rx="6" fill="#F59E0B"/>
+  <rect x="10" y="10" width="120" height="60" rx="4" fill="#1F2937"/>
+  <circle cx="70" cy="40" r="12" fill="#F59E0B"/>
+  <text x="70" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">🎾</text>
+  <text x="70" y="65" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">TENNIS</text>
+</svg>
