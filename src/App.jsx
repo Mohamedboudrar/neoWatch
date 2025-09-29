@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import PricingPage from './pages/PricingPage'
 import ContactPage from './pages/ContactPage'
+import SubscriptionPage from './pages/SubscriptionPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/subscription" element={<SubscriptionPage />} />
         </Routes>
       </MainLayout>
     </Router>

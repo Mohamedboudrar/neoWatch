@@ -11,7 +11,7 @@ function HomePage() {
   const navigate = useNavigate()
 
   const handleWhatsAppContact = () => {
-    window.open('https://wa.me/+212612450649', '_blank')
+    navigate('/subscription?type=trial')
   }
 
   const handleScrollToPricing = () => {
