@@ -163,3 +163,17 @@ img {
 .image-container:hover img {
   transform: scale(1.05);
 }
+
+/* Logo scrolling animation */
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+.animate-scroll {
+  animation: scrollLogos 25s linear infinite;
+}
