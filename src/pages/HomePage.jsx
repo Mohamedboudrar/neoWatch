@@ -7,6 +7,8 @@ import BTLogo from '../../public/btlogo.png'
 import BBCLogo from '../../public/bbc.png'
 import NLZIETLogo from '../../public/Ziggo.svg'
 import SkyLogo from '../../public/Sky_Sports_Logo.webp'
+import Netflix from '../../public/netf.png'
+import AppleTv from '../../public/Appletv.png'
 
 function HomePage() {
   const navigate = useNavigate()
@@ -24,7 +26,9 @@ function HomePage() {
     { img: BBCLogo, filter: 'invert brightness-0', bg: 'bg-red-600'},
     { img: NLZIETLogo },
     { img: SkyLogo },
-    
+    { img: Netflix },
+    { img: AppleTv,filter: 'invert brightness-10', bg: 'bg-red-600' },
+
   ];
   const duplicatedLogos = [...logos, ...logos, ...logos];
 
