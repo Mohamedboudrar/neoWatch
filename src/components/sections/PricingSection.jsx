@@ -47,7 +47,7 @@ function PricingSection({ onWhatsAppContact }) {
                 </li>
               </ul>
               <button
-                onClick={onWhatsAppContact}
+                onClick={() => onWhatsAppContact('1-month')}
                 className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 Get Started
@@ -87,7 +87,7 @@ function PricingSection({ onWhatsAppContact }) {
                 </li>
               </ul>
               <button
-                onClick={onWhatsAppContact}
+                onClick={() => onWhatsAppContact('3-months')}
                 className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 Get Started
@@ -127,7 +127,7 @@ function PricingSection({ onWhatsAppContact }) {
                 </li>
               </ul>
               <button
-                onClick={onWhatsAppContact}
+                onClick={() => onWhatsAppContact('6-months')}
                 className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 Get Started
@@ -172,7 +172,7 @@ function PricingSection({ onWhatsAppContact }) {
                 </li>
               </ul>
               <button
-                onClick={onWhatsAppContact}
+                onClick={() => onWhatsAppContact('12-months')}
                 className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
               >
                 Get Started

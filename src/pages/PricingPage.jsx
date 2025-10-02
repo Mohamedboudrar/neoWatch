@@ -6,12 +6,12 @@ import TrialCTASection from '../components/sections/TrialCTASection'
 function PricingPage() {
   const navigate = useNavigate()
 
-  const handleWhatsAppContact = () => {
-    navigate('/subscription?type=subscription')
+  const handleWhatsAppContact = (plan) => {
+    navigate(`/subscription?type=subscription&plan=${plan}`)
   }
 
   const handleTrialContact = () => {
-    navigate('/subscription?type=trial')
+    navigate('/subscription?type=trial&plan=trial')
   }
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import HeroSection from '../components/sections/HeroSection'
+import FAQ from '../components/sections/faq'
 import BeinSportsLogo from '../../public/Bein_sport_logo.svg.png'
 import BTLogo from '../../public/btlogo.png'
 import BBCLogo from '../../public/bbc.png'
@@ -11,7 +12,7 @@ function HomePage() {
   const navigate = useNavigate()
 
   const handleWhatsAppContact = () => {
-    navigate('/subscription?type=trial')
+    navigate('/subscription?type=trial&plan=trial')
   }
 
   const handleScrollToPricing = () => {
@@ -53,7 +54,12 @@ function HomePage() {
            </div>
          ))}
        </div>
+       
+       
      </div>
+     <div className='min-h-screen bg-gray-900 text-white'>
+       <FAQ />
+       </div>
 
      <style jsx>{`
        @keyframes scroll {
